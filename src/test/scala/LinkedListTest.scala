@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test
  */
 @DisplayName("In this lab, a linked list that you have implemented") class LinkedListTest {
   @Nested
-  @DisplayName("Has some basic operations that must work - Task 2") class Task2_Basic_Operations {
+  @DisplayName("Has some basic operations that must work - Task 4") class Task4_Basic_Operations {
     @DisplayName("The constructor must create an instance correctly")
     @Test def test_constructor(): Unit = {
       val n = new LinkedList()
@@ -51,7 +51,7 @@ import org.junit.jupiter.api.Test
   }
 
   @Nested
-  @DisplayName("Has a correct implementation of insertion and removal operators - Task 3") class Task3_Operations {
+  @DisplayName("Has a correct implementation of insertion and removal operators - Task 5") class Task5_Operations {
     @DisplayName("Remove first element works")
     @Test def testRemoveFirstElement(): Unit = {
       val n = new LinkedList()
@@ -128,7 +128,7 @@ import org.junit.jupiter.api.Test
   }
 
   @Nested
-  @DisplayName("Has a correct implementation complex operators - Task 4") class Task4_Operations {
+  @DisplayName("Has a correct implementation complex operators - Task 6") class Task6_Operations {
     @Test
     @DisplayName("Can find elements") def testFindElement(): Unit = {
       val n = new LinkedList()
